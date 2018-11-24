@@ -1,0 +1,18 @@
+language: php
+
+services:
+- mysql
+
+php:
+- 7.1
+
+before_script:
+- cp .env.testing .env
+- composer install --no-interaction
+- php artisan key:generate
+- php artisan jwt:secret --force
+- php artisan migrate --seed
+
+script:
+- php artisan lint
+- php artisan test --env=testing

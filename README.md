@@ -1,4 +1,4 @@
-# Scala Projects [Video]
+# Building RESTful API with Laravel [Video]
 This is the code repository for [Building RESTful API with Laravel [Video]](https://www.packtpub.com/application-development/building-restful-api-laravel-video), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
 ## About the Video Course
 Building RESTful API with Laravel will make your client to server communication easier with HTTP requests. In this course, you will learn how to develop a real world, RESTful API with Laravel. You will create an API from scratch, which provides weather information from multiple sources. You will use multiple libraries and technologies like Dingo API for routing, JSON web tokens for authentication and Travis CI for continuous integration and testing.
